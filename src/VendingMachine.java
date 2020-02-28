@@ -1,0 +1,9 @@
+/**
+ * Project Classes
+ * @author Mark Garcia 018019103
+ *         mark.garcia01@student.csulb.edu
+ * @author Brandon Wiitanen
+ *         brandon.wiitanen@student.csulb.edu
+ */
+public class VendingMachine {
+}
