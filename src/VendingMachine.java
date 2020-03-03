@@ -6,4 +6,5 @@
  *         brandon.wiitanen@student.csulb.edu
  */
 public class VendingMachine {
+    private double balance;
 }
