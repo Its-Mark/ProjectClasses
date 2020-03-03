@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class VendingMachine{
     private double bank;
     private ArrayList<Product> stock;
+    private final int MAX_STOCK = 15;
 
     /**
      * Creates an empty Vending Machine
@@ -19,4 +20,20 @@ public class VendingMachine{
         this.stock = new ArrayList<>();
     }
 
+    /**
+     * Adds a product to the vending machine
+     * @param p = product to be added
+     */
+    public void addProduct(Product p){
+        stock.add(p);
+    }
+
+    /**
+     * increasing inventory of product in vending machine
+     * @param i = index of product in array list
+     * @param a = amount to be added
+     */
+    public void increaseStock(int i, int a){
+        stock.get(i).increaseQuantity(a);
+    }
 }

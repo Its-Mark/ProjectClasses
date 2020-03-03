@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b5e920-1fed-4cd7-b1fe-285cdb46b49f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/VendingMachineTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +44,7 @@
       <updated>1582851500653</updated>
       <workItem from="1582851504292" duration="427000" />
       <workItem from="1583255616212" duration="1056000" />
-      <workItem from="1583256698882" duration="824000" />
+      <workItem from="1583256698882" duration="1333000" />
     </task>
     <servers />
   </component>
@@ -63,9 +60,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1583256702658" />
-    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1583256411683">
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1583258006972">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1583256411683" />
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1583258006972" />
   </component>
 </project>
