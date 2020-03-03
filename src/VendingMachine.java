@@ -5,6 +5,18 @@
  * @author Brandon Wiitanen
  *         brandon.wiitanen@student.csulb.edu
  */
-public class VendingMachine {
-    private double balance;
+import java.util.ArrayList;
+
+public class VendingMachine{
+    private double bank;
+    private ArrayList<Product> stock;
+
+    /**
+     * Creates an empty Vending Machine
+     */
+    public VendingMachine(){
+        this.bank = 0.0;
+        this.stock = new ArrayList<>();
+    }
+
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b5e920-1fed-4cd7-b1fe-285cdb46b49f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/VendingMachineTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
       <updated>1582851500653</updated>
       <workItem from="1582851504292" duration="427000" />
       <workItem from="1583255616212" duration="1056000" />
+      <workItem from="1583256698882" duration="824000" />
     </task>
     <servers />
   </component>

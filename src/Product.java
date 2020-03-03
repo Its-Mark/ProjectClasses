@@ -26,6 +26,7 @@ public class Product {
 
     /**
      * Get cost of product
+     *
      * @return cost
      */
     public double getCost() {
