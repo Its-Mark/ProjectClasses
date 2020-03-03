@@ -6,4 +6,7 @@
  *         brandon.wiitanen@student.csulb.edu
  */
 public class Coin {
+    private String type;
+    private int value;
+
 }
