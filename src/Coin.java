@@ -8,5 +8,7 @@
 public class Coin {
     private String type;
     private int value;
+    
+    a;lsdkjf;alskdjf
 
 }
