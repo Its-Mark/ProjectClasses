@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b5e920-1fed-4cd7-b1fe-285cdb46b49f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachineTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachineTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="VendingMachineTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VendingMachineTester" />
+      <module name="ProjectDesigningClasses" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VendingMachineTester" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,6 +62,7 @@
       <workItem from="1582851504292" duration="427000" />
       <workItem from="1583255616212" duration="1056000" />
       <workItem from="1583256698882" duration="1333000" />
+      <workItem from="1583379278217" duration="2602000" />
     </task>
     <servers />
   </component>
@@ -56,13 +74,47 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="490" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1583255994921" />
-    <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1583256702658">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1583381792337">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1583256702658" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1583381792337" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1583381792337">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1583381792337" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1583381792337">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1583381792337" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1583381792337">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1583381792337" />
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1583379278783">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1583379278783" />
+    <state x="343" y="200" key="run.anything.popup" timestamp="1583381217087">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="343" y="200" key="run.anything.popup/0.0.1368.872@0.0.1368.872" timestamp="1583381217087" />
     <state x="348" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1583258006972">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="348" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1583258006972" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/VendingMachineTester.java</url>
+          <line>1</line>
+          <properties class="VendingMachineTester" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

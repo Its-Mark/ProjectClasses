@@ -49,8 +49,12 @@ public class Product {
         quantity += i;
     }
 
+    public void decreaseQuantity(int i) {
+        quantity -= i;
+    }
+
     @Override
     public String toString(){
-        return this.name + " @ $" + this.cost + "\nQuantity: " + this.quantity;
+        return this.name + " @ $" + this.cost + "\nQuantity: " + this.quantity + "\n";
     }
 }
