@@ -89,8 +89,8 @@ public class VendingMachine{
                 p.decreaseQuantity(1);
                 for (Coin c : customerMoney) {
                     bank.add(c);
-                    customerMoney.remove(c);
                 }
+                customerMoney = new ArrayList<>();
                 System.out.println("1 " + p.getName() + " was bought.");
             } else {
                 System.out.println("Insufficient Funds...");

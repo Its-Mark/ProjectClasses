@@ -16,18 +16,20 @@ public class VendingMachineTester {
         availableCoins.add(new Coin("Dime",0.10));
         availableCoins.add(new Coin("Quarter",0.25));
         availableCoins.add(new Coin("Dollar",1.0));
-        Scanner in = new Scanner(System.in); //menu choice
+        Scanner min = new Scanner(System.in); //menu choice
         Scanner cin = new Scanner(System.in); //coin choice
         Scanner pin = new Scanner(System.in); //product choice
         Scanner ain = new Scanner(System.in); //amount-to-add choice
+        Scanner bin = new Scanner(System.in); //buy choice
         boolean stillThere = true;
         String choice;
+        int buyChoice;
         int coinChoice;
         int prodChoice;
         int amChoice;
         while(stillThere){
             System.out.println("1. Show Products \n2. Insert Coin \n3. Add Product \n4. Buy Item \n5. Show Money Inserted \n6. Quit");
-            choice = in.nextLine();
+            choice = min.nextLine();
             if(choice.equals("1")){
                 System.out.println(vm);
                 //end of choice 1
@@ -51,14 +53,14 @@ public class VendingMachineTester {
                 }
                 //end of choice 2
             } else if(choice.equals("3")){
-                prodChoice = in.nextInt();
+                prodChoice = pin.nextInt();
                 System.out.println("Enter amount to add:");
-                amChoice = in.nextInt();
+                amChoice = ain.nextInt();
                 vm.increaseStock(prodChoice,amChoice);
                 //end of choice 3
             } else if(choice.equals("4")){
-                prodChoice = in.nextInt();
-                vm.sellItem(prodChoice);
+                buyChoice = bin.nextInt();
+                vm.sellItem(buyChoice);
                 //end of choice 4
             } else if(choice.equals("5")) {
                 System.out.println(vm.getCustomerMoney());
