@@ -27,6 +27,15 @@ public class VendingMachine{
     }
 
     /**
+     * Customer chooses to add a certain coin.
+     * This will be read by user in the tester class
+     * @param c = coin to be added
+     */
+    public void addCustomerMoney(Coin c){
+        customerMoney.add(c);
+    }
+
+    /**
      * Adds up the value of every coin in the bank array list
      * @return total money in the bank of vending machine
      */
