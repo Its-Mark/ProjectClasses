@@ -10,6 +10,12 @@ public class Product {
     private double cost;
     private int quantity;
 
+    /**
+     * Parameterized constructor of a Product object
+     * @param n = name of product
+     * @param c = cost of product
+     * @param q = quantity of product
+     */
     public Product(String n, double c, int q){
         this.name = n;
         this.cost = c;
@@ -49,6 +55,10 @@ public class Product {
         quantity += i;
     }
 
+    /**
+     * Decrease quantity of product
+     * @param i value to be removed
+     */
     public void decreaseQuantity(int i) {
         quantity -= i;
     }

@@ -21,7 +21,7 @@ public class VendingMachineTester {
         Scanner pin = new Scanner(System.in); //product choice
         Scanner ain = new Scanner(System.in); //amount-to-add choice
         Scanner bin = new Scanner(System.in); //buy choice
-        boolean stillThere = true;
+        boolean stillThere = true; //condition to keep menu looping
         String choice;
         int buyChoice;
         int coinChoice;
@@ -39,7 +39,7 @@ public class VendingMachineTester {
                     coins += i+1 + ": " + availableCoins.get(i).toString() + "\n";
                 }
                 System.out.println(coins);
-                coinChoice = cin.nextInt();
+                coinChoice = cin.nextInt(); //take in coin choice from user
                 if(coinChoice == 1){
                     vm.addCustomerMoney(availableCoins.get(0));
                 } else if (coinChoice == 2){
@@ -53,13 +53,13 @@ public class VendingMachineTester {
                 }
                 //end of choice 2
             } else if(choice.equals("3")){
-                prodChoice = pin.nextInt();
+                prodChoice = pin.nextInt(); //select product from available products
                 System.out.println("Enter amount to add:");
-                amChoice = ain.nextInt();
+                amChoice = ain.nextInt(); //enter amount to add to product
                 vm.increaseStock(prodChoice,amChoice);
                 //end of choice 3
             } else if(choice.equals("4")){
-                buyChoice = bin.nextInt();
+                buyChoice = bin.nextInt(); //choose product to buy
                 vm.sellItem(buyChoice);
                 //end of choice 4
             } else if(choice.equals("5")) {

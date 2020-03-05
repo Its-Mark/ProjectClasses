@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6b5e920-1fed-4cd7-b1fe-285cdb46b49f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectDesigningClasses/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectDesigningClasses/VendingMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectDesigningClasses/VendingMachineTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectDesigningClasses/VendingMachineTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VendingMachineTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachineTester.java" afterDir="false" />
     </list>
@@ -24,6 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YPkDzdngVMQBwlx1BKPbVFOSV1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,12 +67,15 @@
       <workItem from="1582851504292" duration="427000" />
       <workItem from="1583255616212" duration="1056000" />
       <workItem from="1583256698882" duration="1333000" />
-      <workItem from="1583379278217" duration="8677000" />
+      <workItem from="1583379278217" duration="9335000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1583255994921">

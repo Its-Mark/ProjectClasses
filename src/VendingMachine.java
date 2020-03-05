@@ -79,7 +79,8 @@ public class VendingMachine{
     /**
      * Checks to see if item is in the inventory of the vending machine.
      * If item quantity is greater than 0 then it is sold.
-     * If item quantity is equal to 0 then the money is returned.
+     * Since no change is given the customers money goes straight into the bank of the vending machine
+     * If item quantity is equal to 0 then the money is returned (stays with customer)
      * @param i = index of product in array list
      */
     public void sellItem(int i){
