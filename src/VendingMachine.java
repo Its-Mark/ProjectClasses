@@ -84,11 +84,16 @@ public class VendingMachine{
      */
     public void sellItem(int i){
         Product p = stock.get(i);
-        if(p.getQuantity() > 0 && getCustomerMoney() >= p.getCost()) {
-            p.decreaseQuantity(1);
-            for (Coin c : customerMoney){
-                bank.add(c);
-                customerMoney.remove(c);
+        if(p.getQuantity() > 0) {
+            if(getCustomerMoney() > p.getCost()) {
+                p.decreaseQuantity(1);
+                for (Coin c : customerMoney) {
+                    bank.add(c);
+                    customerMoney.remove(c);
+                }
+                System.out.println("1 " + p.getName() + " was bought.");
+            } else {
+                System.out.println("Insufficient Funds...");
             }
         } else {
             System.out.println(stock.get(i).getName() + " is out of stock...");

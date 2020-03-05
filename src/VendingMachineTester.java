@@ -1,3 +1,10 @@
+/**
+ * Project Classes
+ * @author Mark Garcia 018019103
+ *         mark.garcia01@student.csulb.edu
+ * @author Brandon Wiitanen
+ *         brandon.wiitanen@student.csulb.edu
+ */
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -19,7 +26,7 @@ public class VendingMachineTester {
         int prodChoice;
         int amChoice;
         while(stillThere){
-            System.out.println("1. Show Products \n2. Insert Coin \n3. Buy Item \n4. Add Product \n5. Quit");
+            System.out.println("1. Show Products \n2. Insert Coin \n3. Add Product \n4. Buy Item \n5. Show Money Inserted \n6. Quit");
             choice = in.nextLine();
             if(choice.equals("1")){
                 System.out.println(vm);
@@ -44,16 +51,21 @@ public class VendingMachineTester {
                 }
                 //end of choice 2
             } else if(choice.equals("3")){
-
+                prodChoice = in.nextInt();
+                System.out.println("Enter amount to add:");
+                amChoice = in.nextInt();
+                vm.increaseStock(prodChoice,amChoice);
                 //end of choice 3
             } else if(choice.equals("4")){
-
+                prodChoice = in.nextInt();
+                vm.sellItem(prodChoice);
                 //end of choice 4
-            } else if(choice.equals("5")){
+            } else if(choice.equals("5")) {
+                System.out.println(vm.getCustomerMoney());
+                //end of choice 5
+            } else if(choice.equals("6")){
                 stillThere = false;
-                //break while loop end of choice 5
-            } else {
-                System.out.println("Invalid entry.");
+                //breaks while loop end of choice 6
             }
         }
     }
